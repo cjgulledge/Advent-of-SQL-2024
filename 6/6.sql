@@ -1,3 +1,4 @@
+// mysql compatible
 select a.* from (
            select c.name, c.name gift_name, g.price from children c, gifts g
             where g.child_id =c .child_id
